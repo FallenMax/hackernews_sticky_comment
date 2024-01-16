@@ -5,7 +5,8 @@
   "main": "dist/index.user.js",
   "scripts": {
     "start": "chokidar 'src/**/*.ts' -c 'npm run build'",
-    "build": "cat src/banner.ts > dist/index.user.js && esbuild --bundle src/index.ts --platform=browser >> dist/index.user.js"
+    "build": "cat src/banner.ts > dist/index.user.js && esbuild --bundle src/index.ts --platform=browser >> dist/index.user.js",
+    "zip": "zip -r extension.zip dist"
   },
   "keywords": [],
   "author": "",

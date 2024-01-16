@@ -2,8 +2,11 @@
   "manifest_version": 3,
   "name": "Hacker News - Sticky Comments",
   "description": "Improves readability on Hacker News by making parent comments of a thread sticky as you scroll.",
+  "icons": {
+    "128": "icon.png"
+  },
   "version": "0.0.1",
-  "permissions": ["activeTab", "scripting"],
+  "permissions": [],
   "content_scripts": [
     {
       "matches": ["https://news.ycombinator.com/item*"],
