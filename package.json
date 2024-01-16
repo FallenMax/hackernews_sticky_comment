@@ -1,0 +1,18 @@
+{
+  "name": "play-hackernews",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.user.js",
+  "scripts": {
+    "start": "chokidar 'src/**/*.ts' -c 'npm run build'",
+    "build": "cat src/banner.ts > dist/index.user.js && esbuild --bundle src/index.ts --platform=browser >> dist/index.user.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0",
+    "esbuild": "^0.19.11",
+    "typescript": "^5.3.3"
+  }
+}
