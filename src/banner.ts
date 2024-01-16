@@ -5,5 +5,6 @@
 // @grant       none
 // @version     1.0
 // @author      FallenMax
-// @description
+// @description Make active comments sticky so it's easier to follow the discussion
+// @license     MIT
 // ==/UserScript==
